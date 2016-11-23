@@ -14,7 +14,7 @@ public class Utils {
         int indexOfClasses = uploadFileName.lastIndexOf("target");
         uploadFileName = uploadFileName.substring(1, indexOfClasses);
         uploadFileName = uploadFileName.concat(fileName);
-        if(isOS("mac")){
+        if(isOS("mac") || isOS("lin")){
             uploadFileName = "/" + uploadFileName.replace("\\", "/");
         }else{
             uploadFileName = uploadFileName.replace("/", "\\");
