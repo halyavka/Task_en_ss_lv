@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+build
+target
+classes
+out
+bin
+.settings
+*.iml
+*.ipr
+*.iws
+target
+test-output
+target/*
+test-output/*
